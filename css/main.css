@@ -1,0 +1,36 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.klaro .cookie-notice{
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto;
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body p{
+    margin: 0;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok{
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok a, .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok div{
+    margin-top: 0;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-buttons button.cm-btn{
+    margin-top: 0;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-learn-more{
+    color: white;
+    margin-right: 20px;
+}
